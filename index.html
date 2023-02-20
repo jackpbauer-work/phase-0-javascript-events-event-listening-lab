@@ -17,7 +17,10 @@
   <main id="main">My ID is "main"!</main>
   <br />
   <div>
-      <input id="button" type="button" value="Click Me!"/>
+    const input = document.getElementById('button');
+    input.addEventListener('click', function() {
+      alert('I was clicked!');
+    });
   </div>
   <br />
   <div>
